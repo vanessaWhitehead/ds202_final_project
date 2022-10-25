@@ -6,7 +6,24 @@ date: "2022-10-25"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+
+#Libraries
+#install.packages('datasets')
+#install.packages('epiDisplay')
+#install.packages('tidyverse')
+
+library(tidyverse)
+library(hrbrthemes)
+library(epiDisplay)
+library(datasets)
+library(mclust)
+
+
 ```
 
 ## R Markdown
