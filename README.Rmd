@@ -1,7 +1,7 @@
 ---
 title: "README"
 author: "Vanessa Whitehead, Ali Tahmasebi, Adarsh Nair, Maxwell Skinner"
-output: html_document
+output: github_document
 date: "2022-10-25"
 ---
 
